@@ -1,0 +1,19 @@
+{
+  "name": "@bvandyck-mdsol/react-pod-cli",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "react-pod-cli": "bin/react-pod-cli"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "minimist": "^1.2.0",
+    "ora": "^3.4.0"
+  }
+}
