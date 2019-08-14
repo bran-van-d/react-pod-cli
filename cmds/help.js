@@ -1,21 +1,22 @@
 const menus = {
   main: `
-    outside [command] <options>
+    react-pod-cli [command] <options>
 
-    today .............. show weather for today
-    forecast ........... show 10-day weather forecast
+    generate .............. generate a React component pod. By default you get a functional component with no Redux.
     version ............ show package version
     help ............... show help menu for a command`,
 
-  today: `
-    outside today <options>
+  generate: `
+    react-pod-cli generate <options>
 
-    --location, -l ..... the location to use`,
+    --redux, -r ..... specify if redux is required
+    --class -cls ..... indicate that a class component is needed`,
+  
+  version: `
+    react-pod-cli version
 
-  forecast: `
-    outside forecast <options>
-
-    --location, -l ..... the location to use`,
+    --version, -v ..... show package version
+  `
 }
 
 module.exports = (args) => {

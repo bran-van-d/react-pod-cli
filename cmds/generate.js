@@ -1,6 +1,6 @@
 module.exports = (args) => {
   var fs = require('fs');
-
+  console.log(args)
   const ComponentName = args._[1];
   const componentDirectory = `components/${ComponentName}`;
 
